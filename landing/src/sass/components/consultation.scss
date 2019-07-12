@@ -1,0 +1,39 @@
+.consultation{
+    margin: 0 auto;
+    width: 260px;
+    &_title{
+        font-size: 20px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        line-height: 1.5;
+        margin-bottom: 23px;
+    }
+    
+    &_list{
+        list-style: none;
+        position: relative;
+        width: 220px;
+        margin-left: 40px;
+        font-size: 14px;
+        font-family: 'Acrom';
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    &_item{
+      padding-bottom: 19px; 
+    }
+    &_item:last-child{
+        padding-bottom: 0;
+    } 
+    &_item::before{
+        display: block;
+        content: '\2192';
+        font-size:  15px;
+        color: $arrow;
+        position: absolute;
+        left: -30px;
+    }
+    &_boldtext{
+        font-weight: 800;
+    }
+}
