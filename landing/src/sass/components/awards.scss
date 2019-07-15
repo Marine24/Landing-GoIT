@@ -1,0 +1,97 @@
+.awards{
+
+    &_title{
+        font-size: 20px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        line-height: 1.5; 
+        width: 222px;
+        margin-bottom: 34px;
+        padding: 36px 0 0 35px;
+        
+    }
+    &_subtitle{
+        font-size: 16px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        margin-bottom: 26px;
+        padding-left: 36px;
+    }
+    &_list{
+        list-style: none;
+        margin: 0 auto 62px;
+        
+    }
+    &_item{
+        
+        margin: 0 auto 60px;
+        width: 225px;
+        // height: 465px;
+       
+    }
+    &_itemtitle{
+        font-size: 18px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        margin-bottom: 22px;
+        padding: 46px 89px 0 26px;
+        position: relative;
+        &::before{
+            display: block;
+            content: '';
+            width: 60px;
+            height: 2px;
+            background-color: $arrow;
+            position: absolute;
+            z-index: 5;
+            transform: translateX(-36px) translateY(-23px);
+        }
+    }
+    
+    &_itemtext{
+        margin-bottom: 24px;
+        font-size: 14px;
+        font-family: 'Acrom';
+        font-weight: 400;
+        padding-left: 26px;
+    }
+    &_itemtext1{
+        margin-bottom: 45px;
+    }
+
+    &_itemimg{
+       display: block;
+       margin: 0 auto;
+       padding-bottom: 28px;
+    }
+  
+    &_overlay{
+        position: absolute;
+        background-color: $color-overlay;
+        opacity: 0.6;
+        width: 225px;
+        height: 445px;
+        transform: translateX(-17px)translateY(27px);
+        z-index: 1;
+    }
+    &_number{
+        font-size: 50px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        position: absolute;
+        color: $bgcolor;
+        right: 45px;
+        transform: translateY(-37px);
+        z-index: 2;
+    }
+&_content{
+    background-color: $white;
+    box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+    position: relative;
+    z-index: 4;
+    height: 455px;
+}
+}
+
+
+  

@@ -1,0 +1,57 @@
+.partners{
+    
+    &_content{
+        width: 218px;
+        margin: 0 auto;
+        background-image: url(../../images/gerb.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    &_subtitle{
+    margin-bottom: 41px;
+    background-color: $bgcolor;
+    width: 99px;   
+    font-size: 16px;
+    font-family: 'Acrom';
+    font-weight: 800;
+    }
+    &_subtitle2{
+        margin-bottom: 41px;
+        background-color: $bgcolor;
+        width: 105px;   
+        font-size: 16px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        }
+    &_title{
+    width: 213px;   
+    font-size: 24px;
+    font-family: 'Acrom';
+    font-weight: 800;
+    margin-bottom: 19px;
+    }
+    &_text{
+    width: 213px;   
+    font-size: 14px;
+    font-family: 'Acrom';
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 46px;
+    }
+    &_logos{
+        width: 260px;
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto 50px; 
+
+    }
+    &_logo{
+        margin: 7px;
+    }
+}
+
+.log_pad{
+    padding-right: 15px;
+}
