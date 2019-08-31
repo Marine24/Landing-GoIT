@@ -1,5 +1,13 @@
 .footer{
     background-image: url(../../images/footer.png);
+    @media (min-width:768px){
+        background-image: url(../../images/footer_tablet.png);
+    }
+    &-content{
+        display: flex;
+        margin-left: 76px;
+          
+    }
     &_title{
         padding: 64px 0 302px;
         text-align: center;
@@ -13,14 +21,26 @@
             border-bottom: 1px solid $arrow;
             width: 210px;
             margin: 0 auto;
+            @media (min-width:768px){
+                width: 314px;
+            }
+        }
+        @media (min-width:768px){
+            font-size: 30px;
         }
     }
     &_logo{
         margin: 0 auto 14px;
         display: block;
+        @media (min-width:768px){
+            // margin: 10px 0 0 76px;
+            padding-bottom: 10px;
+        } 
+        
     }
     &_action{
         text-decoration: none;
+       
         
     }
     &_text{
@@ -29,6 +49,11 @@
         font-weight: 400;
         font-size: 14px;
         text-align: center;
-        padding-bottom: 37px;   
+        padding-bottom: 37px; 
+        @media (min-width:768px){
+            font-size: 18px;
+            margin-left: 13px;
+        //    padding: 10px 0 37px 0;
+        }  
     }
 }

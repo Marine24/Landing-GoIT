@@ -6,6 +6,10 @@
         background-image: url(../../images/gerb.png);
         background-repeat: no-repeat;
         background-position: top;
+        @media (min-width:768px){
+            background-position: 230px 5px;
+            width: 392px;  
+        }
     }
     &_subtitle{
     margin-bottom: 41px;
@@ -16,12 +20,15 @@
     font-weight: 800;
     }
     &_subtitle2{
-        margin-bottom: 41px;
+        margin: 0 0 41px 41px;
         background-color: $bgcolor;
         width: 105px;   
         font-size: 16px;
         font-family: 'Acrom';
         font-weight: 800;
+        @media (min-width:768px){
+            margin: 0 0 41px 50px;
+        }
         }
     &_title{
     width: 213px;   
@@ -29,6 +36,10 @@
     font-family: 'Acrom';
     font-weight: 800;
     margin-bottom: 19px;
+    text-transform: uppercase;
+    @media (min-width:768px){
+        width: 362px;
+    }
     }
     &_text{
     width: 213px;   
@@ -37,6 +48,9 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 46px;
+    @media (min-width:768px){
+        width: 380px;
+    }
     }
     &_logos{
         width: 260px;
@@ -45,13 +59,41 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 0 auto 50px; 
+        @media (min-width:768px){
+           width: 660px;
+           height: 145px;
+
+        }
 
     }
     &_logo{
         margin: 7px;
+        @media (min-width:768px){
+            margin: 9px;
+        } 
     }
 }
 
 .log_pad{
     padding-right: 15px;
+}
+
+@media (min-width:768px){
+    .logo1 {order: 1;}
+    .logo2 {order: 2;}
+    .logo3 {order: 4;}
+    .logo4 {order: 3;}
+    .logo6 {order: 5;}
+    .logo5 {order: 9;}
+    .logo7 {order: 6;}
+    .logo8 {order: 8;}
+    .logo9 {order: 7;}
+    .logo10 {order: 10;}
+    .logo11 {order: 14;}
+    .logo12 {order: 13;}
+    .logo13 {order: 15;}
+    .logo14 {order: 16;}
+    .logo15 {order: 11;}
+    .logo16 {order: 12;}
+
 }
